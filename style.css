@@ -74,9 +74,6 @@ body{
     grid-row-gap: 15rem;
 }
 
-.imageContainer{
-
-}
 
 img{
     width: 22rem;
@@ -116,4 +113,73 @@ img{
     font-weight: 700;
     font-size: 1.4rem;
     text-align: center;
+    color: #A9A9A9;
+}
+
+
+
+
+@media only screen and (max-width: 1285px) {
+    .titleContainer{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .title{
+        width: 43.9rem;
+        margin-bottom: 3.8rem;
+    }
+
+    .telephoneTranslate{
+        transform: translateY(8.5rem);
+    }
+
+    .translate.telephoneTranslate{
+        transform: translateY(0rem);
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    img{
+        width: 100%;
+    }
+
+    .imagesContainer{
+        display: grid;
+        justify-content: space-between;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 5rem;
+    }
+
+    .name{
+        font-size: 1.4rem;
+    }
+
+    .role{
+        font-size: 1.1rem;
+    }
+
+    .telephoneTranslate{
+        transform: translateY(4rem);
+    }
+
+    .container{
+        width: 100%;
+        padding: 11.7rem 2rem 20.5rem;
+    }
+
+    .title,.whoWeAre{
+        width: 100%;
+    }
+
+    .saba{
+        transform: translateY(4rem) !important;
+    }
+
+    .titleContainer{
+        margin-bottom: 8rem;
+    }
 }
