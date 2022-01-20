@@ -1,0 +1,119 @@
+*,*::after,*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+
+}
+
+.bigContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.container{
+    max-width: 90rem;
+    width: 70%;
+    padding: 11.7rem 0 20.5rem;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+}
+
+.title{
+    font-family: "PT Serif", sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+.whoWeAre{
+    width: 43.9rem;
+}
+
+.subTitle{
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 2.7rem;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+
+
+
+
+.imagesContainer{
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    grid-row-gap: 15rem;
+}
+
+.imageContainer{
+
+}
+
+img{
+    width: 22rem;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.role{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+.imgDescription{
+    display: flex;
+}
+
+.translate{
+    transform: translateY(8.5rem);
+}
+
+
+
+
+
+
+.footer{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+}
